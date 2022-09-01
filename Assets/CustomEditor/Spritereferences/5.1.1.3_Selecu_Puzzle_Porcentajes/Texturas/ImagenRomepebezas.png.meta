@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 60104b6f673507b4eb922a9f9bd678c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -927074913660165532
+    second: ImagenRomepebezas_0
+  - first:
+      213: 804711168263566702
+    second: ImagenRomepebezas_1
+  - first:
+      213: 7434262217562063821
+    second: ImagenRomepebezas_2
+  - first:
+      213: 1448710882179331083
+    second: ImagenRomepebezas_3
+  - first:
+      213: 2429391412141239343
+    second: ImagenRomepebezas_4
+  - first:
+      213: -2649135364772562355
+    second: ImagenRomepebezas_5
+  - first:
+      213: -8559155025118027281
+    second: ImagenRomepebezas_6
+  - first:
+      213: 3061604969435030006
+    second: ImagenRomepebezas_7
+  - first:
+      213: -5795629443686217562
+    second: ImagenRomepebezas_8
+  - first:
+      213: 396494148017962880
+    second: ImagenRomepebezas_9
+  - first:
+      213: -3454431619914658866
+    second: ImagenRomepebezas_10
+  - first:
+      213: -7119099580850465945
+    second: ImagenRomepebezas_11
+  - first:
+      213: -7150410705901077220
+    second: ImagenRomepebezas_12
+  - first:
+      213: 6221169267412815126
+    second: ImagenRomepebezas_13
+  - first:
+      213: -4302087496296720569
+    second: ImagenRomepebezas_14
+  - first:
+      213: -582824674594866179
+    second: ImagenRomepebezas_15
+  - first:
+      213: 1973214516046788533
+    second: ImagenRomepebezas_16
+  - first:
+      213: -2070509492893541470
+    second: ImagenRomepebezas_17
+  - first:
+      213: -4139950306840996286
+    second: ImagenRomepebezas_18
+  - first:
+      213: 5759194263500661579
+    second: ImagenRomepebezas_19
+  - first:
+      213: 1964830955878225731
+    second: ImagenRomepebezas_20
+  - first:
+      213: -8310064561584148329
+    second: ImagenRomepebezas_21
+  - first:
+      213: 791646465450389171
+    second: ImagenRomepebezas_22
+  - first:
+      213: -1898039330880484029
+    second: ImagenRomepebezas_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ImagenRomepebezas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4622c13274e5223f0800000000000000
+      internalID: -927074913660165532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 375
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65b3234b88ea2b00800000000000000
+      internalID: 804711168263566702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 375
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc305e4391ecb2760800000000000000
+      internalID: 7434262217562063821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 375
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04ba8a2fdada1410800000000000000
+      internalID: 1448710882179331083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 375
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c201d2e9ee6b120800000000000000
+      internalID: 2429391412141239343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 375
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a7ec4eb616c3bd0800000000000000
+      internalID: -2649135364772562355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1275e5ad5c73980800000000000000
+      internalID: -8559155025118027281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_7
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 255
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1eeb5af710d7a20800000000000000
+      internalID: 3061604969435030006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 255
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8c94f3ab9c19fa0800000000000000
+      internalID: -5795629443686217562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_9
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 255
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fb120b351a08500800000000000000
+      internalID: 396494148017962880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_10
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 255
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb0c1a7eb46f00d0800000000000000
+      internalID: -3454431619914658866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_11
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 255
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76396ca56a0e33d90800000000000000
+      internalID: -7119099580850465945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dbd94f853a4cc90800000000000000
+      internalID: -7150410705901077220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_13
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 135
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dc7bfcc78065650800000000000000
+      internalID: 6221169267412815126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 135
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747959e273aeb44c0800000000000000
+      internalID: -4302087496296720569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 135
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbb070eb0469e7f0800000000000000
+      internalID: -582824674594866179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_16
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 135
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7fc96d524426b10800000000000000
+      internalID: 1973214516046788533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_17
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 135
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab910416921443e0800000000000000
+      internalID: -2070509492893541470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24619fc5121fb86c0800000000000000
+      internalID: -4139950306840996286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_19
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 15
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43ac6c4ba4ccef40800000000000000
+      internalID: 5759194263500661579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_20
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 15
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34710d0285b744b10800000000000000
+      internalID: 1964830955878225731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_21
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 15
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790f6325f48bcac80800000000000000
+      internalID: -8310064561584148329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_22
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 15
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be2dd8144e7cfa00800000000000000
+      internalID: 791646465450389171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImagenRomepebezas_23
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 15
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d0629e84fc8a5e0800000000000000
+      internalID: -1898039330880484029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

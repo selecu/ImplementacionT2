@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd2116b7c21fb64b95f936537d7691b, type: 3}
+  m_Name: Game Data
+  m_EditorClassIdentifier: 
+  gameData:
+  - name: 1.1 Rompecabezas
+    description: "Rompecabezas de imagenes, que pueden tener preguntas con respuestas
+      correctas en texto, imagen, gr\xE1fica, n\xFAmero. Preguntas de operaciones
+      matem\xE1ticas\nVariaciones \n1.1.1\n1.1.2\n1.1.3"
+    imgRef: {fileID: 2800000, guid: a1148cc062bdad546a57d2af6ed7e71a, type: 3}
+    prefab: {fileID: 3002664284872978838, guid: ad0a2c15730d12642a3ef86b6159e7fd, type: 3}
+  - name: 2.1 Drag and Drop
+    description: "Distribuir, clasificar, o agrupar varios elementos (m\xE1s de 2)
+      seg\xFAn un criterio. \nVariaciones \n2.1.1\n2.1.2\n2.1.3"
+    imgRef: {fileID: 2800000, guid: 753734e0c1b15ca4d875cb62d7aa26b4, type: 3}
+    prefab: {fileID: 2044887294365939861, guid: 5624342fdd0880c45bc4e58c04a8f26c, type: 3}
+  - name: 2.2 Drag and Drop
+    description: "Conformar palabra o frase con todas las letras disponibles. \nVariaciones
+      \n2.2.1\n2.2.2"
+    imgRef: {fileID: 2800000, guid: 2248633c639ef28428eb610443044e67, type: 3}
+    prefab: {fileID: 2044887294365939861, guid: 5624342fdd0880c45bc4e58c04a8f26c, type: 3}
+  - name: 2.3 Drag and Drop
+    description: "Ubicar elementos de izquierda a derecha siguiendo un orden.\nVariaciones
+      \n2.3.1\n2.3.2\n2.3.3"
+    imgRef: {fileID: 2800000, guid: 742fc976322d8e44ebb0dc8d18c5aa7d, type: 3}
+    prefab: {fileID: 2044887294365939861, guid: 5624342fdd0880c45bc4e58c04a8f26c, type: 3}
+  - name: 2.4 Drag and Drop
+    description: "Medir elementos con regla y entregar resultado\nVariaciones \n2.4.1\n"
+    imgRef: {fileID: 2800000, guid: 8cbb51cdf1fa076479582045c0eee871, type: 3}
+    prefab: {fileID: 6757143911003232179, guid: 45608e178146cc848a032c1f16a62083, type: 3}
+  - name: 2.5 Drag and Drop
+    description: "Organizar textos seg\xFAn la referencia \nVariaciones \n2.5.1\n"
+    imgRef: {fileID: 2800000, guid: 14a5994ec7758ff42b50648f52a23ea9, type: 3}
+    prefab: {fileID: 2044887294365939861, guid: 5624342fdd0880c45bc4e58c04a8f26c, type: 3}
+  - name: 2.6 Drag and Drop
+    description: "Responder una pregunta de selecci\xF3n m\xFAltiple \nVariaciones
+      \n2.6.1\n"
+    imgRef: {fileID: 2800000, guid: 455d163f83f6ef44e8f8a32df196a53d, type: 3}
+    prefab: {fileID: 2044887294365939861, guid: 5624342fdd0880c45bc4e58c04a8f26c, type: 3}
+  - name: 3.1 Galeria de Imagenes
+    description: "Visualizar una o varias im\xE1genes \nVariaciones \n3.1.1\n3.1.4\n"
+    imgRef: {fileID: 2800000, guid: 39f0c9b1bf9e397408a6d6815212ba29, type: 3}
+    prefab: {fileID: 1156154445140664500, guid: 448ea9846d3837746b9bb168c1978c79, type: 3}
+  - name: 3.1.2 Galeria de Imagenes
+    description: "Visualizar una o varias im\xE1genes, acompa\xF1adas de texto y
+      ventana emergente.\nVariaciones \n3.1.2\n3.1.3\n"
+    imgRef: {fileID: 2800000, guid: ba374c6e3f42c124191c9039785b2243, type: 3}
+    prefab: {fileID: 2788234129162501561, guid: acfd072d8e16c02499a4e4b95922fdf1, type: 3}
+  - name: 4.1 Videos
+    description: "Visualizar videos o mostrar enlace para visualizaci\xF3n.\nVariaciones
+      \n4.1.1\n\n"
+    imgRef: {fileID: 2800000, guid: 5d48ee0f3f20ca54f80e82795eab4210, type: 3}
+    prefab: {fileID: 7631465188956809030, guid: f85c51531468c6d42858ef4cc4521863, type: 3}
+  - name: "5.1 Rotaci\xF3n de tarjetas"
+    description: "Encontrar parejas de cartas\nVariaciones \n5.1.1\n\n"
+    imgRef: {fileID: 2800000, guid: 072bf1800e9c8fa4dba58b192baaa1e7, type: 3}
+    prefab: {fileID: 6451588298450143351, guid: 3887b01ade5d9474fa91254b8ff652b9, type: 3}
+  - name: "5.1.2  Rotaci\xF3n de tarjetas"
+    description: "Encontrar parejas de cartas con igual contenido, con retroalimentaci\xF3n
+      o ventana emergente\nVariaciones \n5.1.3\n\n"
+    imgRef: {fileID: 2800000, guid: e60115a16641f2a4383cafb74117173b, type: 3}
+    prefab: {fileID: 4105227902165209457, guid: 5cc39931f50b56544bbdecf305e82d6e, type: 3}
+  - name: "5.1.4 Rotaci\xF3n de tarjetas"
+    description: "Encontrar una pareja de cartas con contenido diferente, con o sin
+      retroalimentaci\xF3n.\nVariaciones \n5.1.4\n\n"
+    imgRef: {fileID: 2800000, guid: dc6415defd2bd1f4383c4f3adb581509, type: 3}
+    prefab: {fileID: 212005301253126028, guid: 7f1d8724b27ae504f9c90529a1c78d11, type: 3}
+  - name: 6.1 Seleccion Multiple
+    description: "Seleccionar la o las respuestas correctas dentro de unas opciones
+      disponibles. \nVariaciones \n6.1.1\n6.1.2\n6.1.3\n\n"
+    imgRef: {fileID: 2800000, guid: 3351b6ac524e25440a9d0ed92be5800b, type: 3}
+    prefab: {fileID: 6681131610215110340, guid: c9cdbdf5864448e4cbd0d1ce9db51520, type: 3}
+  - name: 6.1.4 Seleccion Multiple
+    description: "Seleccionar 2 o m\xE1s respuestas correctas \nVariaciones \n6.1.4\n"
+    imgRef: {fileID: 2800000, guid: 43b3386df3392914395a745089840c2b, type: 3}
+    prefab: {fileID: 7525305650693797225, guid: b9bb56a3394dfbf4abd2148fb5a8cc43, type: 3}
+  - name: '7.1 Check Input '
+    description: "Escribir respuestas num\xE9ricas o textuales\nVariaciones \n7.1.1\n7.1.2\n7.1.3\n"
+    imgRef: {fileID: 2800000, guid: 43b3386df3392914395a745089840c2b, type: 3}
+    prefab: {fileID: 9207822015107928034, guid: 53ab42f1e5b319c4e8d34b49fd835f6b, type: 3}
+  - name: 8.2 Click
+    description: "Dar click al enlace entregado\nVariaciones \n8.2.1\n"
+    imgRef: {fileID: 2800000, guid: f04cd82299f40244d89fc75eefa2e23a, type: 3}
+    prefab: {fileID: 7631465188956809030, guid: f85c51531468c6d42858ef4cc4521863, type: 3}
+  - name: 8.4 Click
+    description: "Pasar p\xE1ginas de un libro\nVariaciones \n8.4.1\n"
+    imgRef: {fileID: 2800000, guid: f058b0b4bf000d947b06f0fad37bec0f, type: 3}
+    prefab: {fileID: 7851067191681153022, guid: 18c9f634896e08b4c83d834e8ea329f2, type: 3}
+  - name: '10.1 Encontrar los puntos '
+    description: "Encontrar los puntos seg\xFAn las coordenadas para dibujar una
+      figura.\nVariaciones \n"
+    imgRef: {fileID: 2800000, guid: 7cbc156e61770f243abbac7831a041cc, type: 3}
+    prefab: {fileID: 3162724222169804462, guid: 3fadd88c65571114cbadeb641a1e912c, type: 3}
+  - name: 11.1 Sopa de letras
+    description: "Encontrar las letras para conformar una palabra dada. \nVariaciones
+      \n"
+    imgRef: {fileID: 2800000, guid: 8a85867445ea91c41a457790e680dbec, type: 3}
+    prefab: {fileID: 314322556148141824, guid: d8bf55c380e2c1b4c8f6f46fb6e5149f, type: 3}
+  - name: 12.1 Operaciones con temporizador
+    description: "Resolver pregunta escrita o de selecci\xF3n m\xFAltiple con temporizacdor
+      animado \nVariaciones \n"
+    imgRef: {fileID: 2800000, guid: 97d06c61512bd3f49b94c040fe07457c, type: 3}
+    prefab: {fileID: 3288054948109511672, guid: 226b924dee6066740a689e26532ab137, type: 3}
+  - name: 13.1 Conectar con lineas
+    description: "Conectar columnas de elementos con l\xEDneas\nVariaciones \n13.1\n"
+    imgRef: {fileID: 2800000, guid: 07ce294c30ed72240a3349354cc30513, type: 3}
+    prefab: {fileID: 3058595196243444095, guid: 7fc77fe2c97161b4382497219bc997be, type: 3}
+  - name: 14.1 Balanza con Fisicas
+    description: "Comparar elementos mediante una balanza\nVariaciones \n14.1.2\n14.1.3\n\n"
+    imgRef: {fileID: 2800000, guid: 07ce294c30ed72240a3349354cc30513, type: 3}
+    prefab: {fileID: 8930217493303262812, guid: aa466768dd106f647b20913b31a8707a, type: 3}
+  - name: 15.1 Bingo
+    description: "Escuchar audio y seleccionar palabra escuchada \nVariaciones \n\n\n"
+    imgRef: {fileID: 2800000, guid: 468d451b34a8e9c48a1095137b4daa81, type: 3}
+    prefab: {fileID: 1556819857345883776, guid: 7ce3abe358edec844944f765b7123aaf, type: 3}
+  - name: 16.1 PixelArt
+    description: "Dibujar libremente\nVariaciones \n\n\n"
+    imgRef: {fileID: 2800000, guid: dd7b8b7fc7b94754895938de2309a6a4, type: 3}
+    prefab: {fileID: 2639948654058040582, guid: 54a74a7d083628e4abd4a10fe076da28, type: 3}
+  - name: 17.1 PacMan
+    description: "Recorrer un laberinto recogiendo objetos para llegar a la salida\nEs
+      una scena dentro del proyecto\nVariaciones \n\n\n"
+    imgRef: {fileID: 2800000, guid: 1fa493a7c59ce604dbe9161abf029c76, type: 3}
+    prefab: {fileID: 0}
+  - name: 18.1 Escalar respuestas correctas
+    description: "Escalar niveles dando click a la respuesta correcta\nVariaciones
+      \n\n\n"
+    imgRef: {fileID: 2800000, guid: 6821655e2fdce3f42afa68b95f1a0319, type: 3}
+    prefab: {fileID: 933410913909741044, guid: 270e540a5422a464c90d434b51989ad7, type: 3}
+  - name: 19.1 Descubrir con luz
+    description: "Mover la luz para descubrir lo que se oculta en la imagen \nVariaciones
+      \n\n\n"
+    imgRef: {fileID: 2800000, guid: f7b541e5cd8b9124f8065b9feae74685, type: 3}
+    prefab: {fileID: 5828277707351523020, guid: b37b449bbda048f45bd32bf5869b8d55, type: 3}
+  - name: 19.1 Descubrir con luz
+    description: "Mover la luz para descubrir lo que se oculta en la imagen \nVariaciones
+      \n\n\n"
+    imgRef: {fileID: 2800000, guid: f7b541e5cd8b9124f8065b9feae74685, type: 3}
+    prefab: {fileID: 5828277707351523020, guid: b37b449bbda048f45bd32bf5869b8d55, type: 3}
+  - name: 20.1 Laberinto
+    description: "Recorrer laberinto con obst\xE1culos que son ventanas emergentes.
+      \nVariaciones \n\n\n"
+    imgRef: {fileID: 2800000, guid: b90a352bd3d77cd4cb3b7efe2660091b, type: 3}
+    prefab: {fileID: 0}
+  - name: 21.1 Parejas en Laberinto
+    description: "Determinar el camino correcto que permite asociar parejas, ocupando
+      TODO el espacio  \nVariaciones \n\n\n"
+    imgRef: {fileID: 2800000, guid: dcc121574eb99c445a0f277612c07ec9, type: 3}
+    prefab: {fileID: 0}
+  - name: 22.1 Subir Archivos
+    description: "Posibilidad de subir Archivos \nVariaciones \n\n\n"
+    imgRef: {fileID: 2800000, guid: 677a42046eccbad48b7d74f86e842f09, type: 3}
+    prefab: {fileID: 6442295874449821296, guid: 3a0b02993da7d7e43b776d7fe5bb8c31, type: 3}
+  - name: 23.1 MEC
+    description: "Unir puntos para dibujar las figuras de referencia\nVariaciones
+      \n\n\n"
+    imgRef: {fileID: 2800000, guid: 6c1cf12d5c01e714c91db9ecd764ebd9, type: 3}
+    prefab: {fileID: 3218368929198469349, guid: 0159e5a017a02804883e0e468c51dd4b, type: 3}
+  - name: 23.2 MEC
+    description: "Arrastrar o escribir palabras para determinar la orientaci\xF3n
+      espacial de ciertos objetos\nVariaciones \n\n\n"
+    imgRef: {fileID: 2800000, guid: bf5f7dfc5a13fed4b9f27ad9e82f8459, type: 3}
+    prefab: {fileID: 0}
+  - name: 24.1 Domino
+    description: "Ubicar piezas en posicion unica estilo domino\nVariaciones \n\n\n"
+    imgRef: {fileID: 2800000, guid: 37576856f8464334da5859c5b551cca5, type: 3}
+    prefab: {fileID: 8146907395095685457, guid: 4a968631e555e22408abacf0190c1f97, type: 3}
+  - name: 25.1 Suma y resta de partes
+    description: "Seleccionar las l\xEDneas correctas luego de sumar y restar las
+      partes\nVariaciones \n\n\n"
+    imgRef: {fileID: 2800000, guid: c92d2c81f7749ea4d99ee5a4cfc99461, type: 3}
+    prefab: {fileID: 4377506546305962166, guid: 7b47dc52c7d9954498a4fb270706976b, type: 3}
+  - name: 26.1 Regletas
+    description: "Arrastrar regletas para conformar o rellenar \xE1reas\nEs una scena
+      en el proyacto\nVariaciones \n\n\n"
+    imgRef: {fileID: 2800000, guid: b084bbc9700003b44807a4a9d9f2dc87, type: 3}
+    prefab: {fileID: 0}

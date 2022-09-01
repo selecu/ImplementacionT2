@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - tile
+  - column
+  - border
+  - score
+  - 3324_SoportaLateral
+  - ItemDraggerParent
+  - Slot
+  - 4139_ExternalElements
+  - Slots
+  - CheckButton
+  - DragParent
+  - Slotses
+  - pool
+  - text
+  - 51316_ChontaduroContainer
+  - 51320_AnimalTextures
+  - 3126_E_TextsHolders
+  - 51320_AnimalObjects
+  - PaintStore_Answers
+  - PaintStore_Amounts
+  - Info
+  - 3.2.2.5_cantidades
+  - pixel
+  - movepivot
+  - movepivotright
+  - line
+  - Parent
+  - movepivotrightdown
+  - parent9
+  - parent10
+  - parent1
+  - parent7
+  - parent5
+  - parent3
+  - parent8
+  - parent4
+  - parent6
+  - parent2
+  - casilla
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - casillas
+  - Water
+  - UI
+  - DD_Raycats
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
