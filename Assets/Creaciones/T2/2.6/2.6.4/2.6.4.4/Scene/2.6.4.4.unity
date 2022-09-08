@@ -634,7 +634,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 25 + 18 =
+  m_text: 58 - 15 =
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632c2bd0dbef8d44cb4893403f3c86ed, type: 2}
   m_sharedMaterial: {fileID: 1555376489902676549, guid: 632c2bd0dbef8d44cb4893403f3c86ed,
@@ -21709,12 +21709,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f640b039b9a7db84abbd9a6c84fca145, type: 3}
   - {fileID: 8300000, guid: c2726f0754896db48ad570d9d8d4caf2, type: 3}
   - {fileID: 8300000, guid: fc5b7592516f021468e2856aabdd8028, type: 3}
-  secunria_correcto:
-  - {fileID: 8300000, guid: fa3e513bbf0239140a35879495a6718e, type: 3}
-  - {fileID: 8300000, guid: 547cfc26754868547b6cbfb68ec170b3, type: 3}
-  secunria_incorrecto:
-  - {fileID: 8300000, guid: f04069d400b135d42a4a7c8c866c0764, type: 3}
-  - {fileID: 8300000, guid: 3cf3ab1c82a2ddf4a964227645cf3b9d, type: 3}
+  secundaria_correcto: []
+  secundaria_incorrecto: []
   correcto: {fileID: 1973958438}
   incorrecto: {fileID: 1973958437}
 --- !u!1 &1981250225

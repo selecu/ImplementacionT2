@@ -31,8 +31,8 @@ namespace v1
         public AudioClip[] primaria_incorrecto;
         [Space(5)]
         [Header("sonidos de temporada secundaria")]
-        public AudioClip[] secunria_correcto;
-        public AudioClip[] secunria_incorrecto;
+        public AudioClip[] secundaria_correcto;
+        public AudioClip[] secundaria_incorrecto;
         [Space(5)]
         [Header("Componentes AudioSource ")]
         public AudioSource correcto;
@@ -75,6 +75,16 @@ namespace v1
             {
                 correcto.clip = primaria_correcto[3];
                 incorrecto.clip = primaria_incorrecto[3];
+            }
+            if (State == Temporadas.T8)
+            {
+                correcto.clip = secundaria_correcto[0];
+                incorrecto.clip = secundaria_incorrecto[0];
+            }
+            if (State == Temporadas.T9)
+            {
+                correcto.clip = secundaria_correcto[1];
+                incorrecto.clip = secundaria_incorrecto[1];
             }
 
         }

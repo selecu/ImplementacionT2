@@ -59,10 +59,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f640b039b9a7db84abbd9a6c84fca145, type: 3}
   - {fileID: 8300000, guid: c2726f0754896db48ad570d9d8d4caf2, type: 3}
   - {fileID: 8300000, guid: fc5b7592516f021468e2856aabdd8028, type: 3}
-  secunria_correcto:
+  secundaria_correcto:
   - {fileID: 8300000, guid: fa3e513bbf0239140a35879495a6718e, type: 3}
   - {fileID: 8300000, guid: 547cfc26754868547b6cbfb68ec170b3, type: 3}
-  secunria_incorrecto:
+  secundaria_incorrecto:
   - {fileID: 8300000, guid: f04069d400b135d42a4a7c8c866c0764, type: 3}
   - {fileID: 8300000, guid: 3cf3ab1c82a2ddf4a964227645cf3b9d, type: 3}
   correcto: {fileID: 5947822753721896879}

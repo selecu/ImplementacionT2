@@ -20,11 +20,11 @@ namespace v1
 
         [SerializeField]
         [Tooltip("The Button Check or the Checker")]
-        private Btn targetButton;
+        private Btn targetBtn;
 
         #endregion
 
-        private bool  casting = true, hasFinished;
+        private bool slide = false, casting = true, hasFinished;
 
         private Btn play, pause, volume;
 
@@ -34,13 +34,7 @@ namespace v1
 
         private Slider bar;
 
-        private bool isRunning
-        {
-            get => player.isPlaying;
-        }
-
-
-        private void Awake()
+        private void OnValidate()
         {
             player = GetComponent<AudioSource>();
 
@@ -56,18 +50,13 @@ namespace v1
             play.onClick.AddListener(() => Play());
             pause.onClick.AddListener(() => Pause());
             volume.onClick.AddListener(() => Mute());
+        }
 
+        private void Start()
+        {
             bar.value = 0;
             player.clip = queue[innerCount];
             bar.maxValue = player.clip.length;
-            targetButton.interactable = false;
-        }
-
-        private void DisableThing()
-        {
-            play.interactable = 
-            pause.interactable = 
-            volume.interactable = false;
         }
 
         public void StartPlaying() =>
@@ -112,16 +101,13 @@ namespace v1
         {
             if(player.isPlaying)
             {
-                if(isRunning)
+                if(!slide)
                     bar.value += Time.deltaTime;
                 
 
-                hasFinished = ((int) bar.value == (int) bar.maxValue && targetButton);
+                hasFinished = ((int) bar.value == (int) bar.maxValue && targetBtn);
 
-                targetButton.interactable = (hasFinished);
-
-                if(targetButton && hasFinished)
-                    DisableThing();
+                targetBtn.interactable = (hasFinished);
             }
         }
     }

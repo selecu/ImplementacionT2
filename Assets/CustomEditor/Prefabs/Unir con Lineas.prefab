@@ -1123,7 +1123,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3058595196523354721}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1190,7 +1190,7 @@ MonoBehaviour:
   LeneRender: {fileID: 0}
   ItemName: 
   IsCorrect: 0
-  parentalInstanceLine: {fileID: 0}
+  parentalInstanceLine: {fileID: 648664461634798542}
 --- !u!114 &1170146720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3788,7 +3788,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3485620623362597873}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3855,7 +3855,7 @@ MonoBehaviour:
   LeneRender: {fileID: 3058595197418687368}
   ItemName: 
   IsCorrect: 0
-  parentalInstanceLine: {fileID: 0}
+  parentalInstanceLine: {fileID: 648664461634798542}
 --- !u!114 &1661818788
 MonoBehaviour:
   m_ObjectHideFlags: 0
