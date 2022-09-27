@@ -2326,7 +2326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1045352377919848, guid: c17e8ea9a46c2624ab1eac0e6361e8ee, type: 2}
       propertyPath: m_Layer
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1045352377919848, guid: c17e8ea9a46c2624ab1eac0e6361e8ee, type: 2}
       propertyPath: m_IsActive
@@ -13177,7 +13177,7 @@ GameObject:
   - component: {fileID: 1545457171}
   - component: {fileID: 1545457172}
   - component: {fileID: 1545457175}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}

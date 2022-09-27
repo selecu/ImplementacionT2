@@ -12,7 +12,7 @@ namespace Static.Feedback.Editor
         private static PostActivator non;
 
 
-        [MenuItem("Selecu Tools/Create Feedback Fore")]
+        [MenuItem("Selecu Tools/Create Feedback Fore &#f")]
         private static void CreateFeedbackFore()
         {
             if(!prefab)
