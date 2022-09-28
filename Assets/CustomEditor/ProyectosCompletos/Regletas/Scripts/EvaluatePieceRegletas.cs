@@ -8,6 +8,7 @@ namespace Regletas
     {
 
         public List<int> answers;
+        public List<Material> materials;
         bool flag = true;
 
         void Start()
@@ -26,7 +27,10 @@ namespace Regletas
                 temp.size = new Vector3(0.3f, 0.3f, 0.3f);
             }
         }
-
+        public void ChangeColorStatic(int indx)
+        {
+            GetComponent<MeshRenderer>().material = materials[indx];
+        }
         void OnTriggerStay(Collider col)
         {
             if (col.gameObject.tag == "block" && flag)
@@ -35,7 +39,7 @@ namespace Regletas
                 {
                     if(col.gameObject.GetComponent<DragHandlerRegletas>().id == i)
                     {
-                        Re.counter++;
+                        Rev2.counter++;
                         flag = false;
                     }
                 }
@@ -49,7 +53,7 @@ namespace Regletas
                 {
                     if (col.gameObject.GetComponent<DragHandlerRegletas>().id == i)
                     {
-                        Re.counter--;
+                        Rev2.counter--;
                         flag = true;
                     }
                 }

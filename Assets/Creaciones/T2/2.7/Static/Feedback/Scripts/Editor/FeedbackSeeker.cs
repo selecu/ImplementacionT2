@@ -5,7 +5,7 @@ namespace Static.Feedback.Editor
 {
     public class FeedbackSeeker : UnityEditor.Editor
     {
-        const string FULLPATH = "Assets/Creaciones/T2/2.6/Static/Feedback/PrefabCorrect/FeedbackBueno.prefab";
+        const string FULLPATH = "Assets/Creaciones/T2/2.7/Static/Feedback/PrefabCorrect/FeedbackBueno.prefab";
 
         private static GameObject prefab;
 
@@ -25,9 +25,8 @@ namespace Static.Feedback.Editor
 
             GameObject triggers = new GameObject("Triggers");
 
-            GameObject non = new GameObject("Non");
-
-            non.AddComponent<PostActivator>();
+            GameObject non = new GameObject("Non", typeof(PostActivator));
+            non.SetActive(false);
 
             non.transform.SetParent(triggers.transform);
 

@@ -67,10 +67,10 @@ namespace v1
             }
             if (next < 9)
             {
-                if (values[ButtonManagerBingo.value - 1] == nextValue[next])
+                if (values[ButtonManagerBingo.value -1] == nextValue[next])
                 {
                     next++;
-                    txt[ButtonManagerBingo.value - 1].text = "";
+                    txt[ButtonManagerBingo.value -1].text = "";
                 }
             }
         }

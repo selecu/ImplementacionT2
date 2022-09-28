@@ -34,7 +34,7 @@ namespace Regletas
         void OnMouseUp()
         {
             flag = false;
-            Re.state = 0;
+            Rev2.state = 0;
             rb.velocity = Vector3.zero;
         }
 
@@ -81,11 +81,12 @@ namespace Regletas
             {
                 if (transform.position.y < -0.25)
                 {
-                    Re.state = 1;
+                    Rev2.state = 1;
                 }
                 else
                 {
-                    Re.state = 2;
+                    Rev2.state = 2;
+                    
                 }
             }
         }

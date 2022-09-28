@@ -84,6 +84,13 @@ public class ObjetBaseSpawner : EditorWindow
             AssetDatabase.CopyAsset(sceneubi, $"Assets/Scenes/Nuevo.unity");
         }
 
+        if (GUILayout.Button("Laverinto Pacman "))
+        {
+
+            string sceneubi = "Assets/CustomEditor/ProyectosCompletos/Laberinto Pacman/Scenes/LaberintoP.unity";
+            AssetDatabase.CopyAsset(sceneubi, $"Assets/Scenes/Nuevo.unity");
+        }
+
 
         EditorGUILayout.Space(10);
         GUILayout.Label( "Templates In Proyect ");

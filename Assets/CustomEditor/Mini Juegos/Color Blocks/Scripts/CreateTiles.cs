@@ -15,8 +15,9 @@ public class CreateTiles : MonoBehaviour {
 	GameObject instance;
 	float borderAddXPosition = 0;
 	float borderAddYPosition = 0;
+    public GameObject tablero;
 
-	public void Init(int numberOfRows, int numberOfColumns) {
+    public void Init(int numberOfRows, int numberOfColumns) {
 		borderAddXPosition = 0;
 		borderAddYPosition = 0;
 		oddNumber = 0;
@@ -50,17 +51,19 @@ public class CreateTiles : MonoBehaviour {
 
 
 		columns = new GameObject[numberOfColumns + 1];
-
+		
+		
 		Vars.numberOfTiles = 0;
 
 		for(int x = -startPosColumn; x < startPosColumn + oddNumberColumn; x++) {
-			columns[(x + startPosColumn)] = new GameObject("column" + (x + startPosColumn));
+			columns[(x + startPosColumn)] = new GameObject("column" + (x + startPosColumn)) ;
 			columns[(x + startPosColumn)].gameObject.tag = "column";
 			for(int y = -startPosRows; y < startPosRows + oddNumber; y++) {
 				instance = Instantiate(Resources.Load("tile", typeof(GameObject))) as GameObject;
 				instance.transform.position = new Vector2(x, y);
 				instance.transform.parent = columns[(x + startPosColumn)].transform;
 				Vars.numberOfTiles++;
+				columns[(x + startPosColumn)].transform.transform.parent = tablero.transform;
 			}
 		}
 		tilesLeftIndicatiorSlider.GetComponent<Slider>().maxValue = Vars.numberOfTiles;
@@ -69,6 +72,7 @@ public class CreateTiles : MonoBehaviour {
 		GameObject bottomCollider = Instantiate(Resources.Load("bottomCollider", typeof(GameObject))) as GameObject;
 		bottomCollider.transform.position = new Vector2(0, -startPosRows-1);
 		bottomCollider.gameObject.name = "bottomCollider";
+		bottomCollider.transform.parent = tablero.transform;
 
 		//Code below will create borders
 		instance = Instantiate(Resources.Load("border", typeof(GameObject))) as GameObject;
@@ -76,23 +80,27 @@ public class CreateTiles : MonoBehaviour {
 		instance.transform.position = new Vector2(numberOfColumns - borderAddXPosition, 0);
 		instance.tag = "border";
 		instance.name = "borderRight";
+		instance.transform.parent = tablero.transform;
 
 		instance = Instantiate(Resources.Load("border", typeof(GameObject))) as GameObject;
 		instance.transform.localScale  = new Vector2(numberOfColumns, numberOfColumns * 10);
 		instance.transform.position = new Vector2(-numberOfColumns - borderAddXPosition, 0);
 		instance.tag = "border";
 		instance.name = "borderLeft";
+		instance.transform.parent = tablero.transform;
 
 		instance = Instantiate(Resources.Load("border", typeof(GameObject))) as GameObject;
 		instance.transform.localScale  = new Vector2(numberOfRows * 10 , numberOfRows);
 		instance.transform.position = new Vector2(0, numberOfRows - borderAddYPosition);
 		instance.tag = "border";
 		instance.name = "borderTop";
+		instance.transform.parent = tablero.transform;
 
 		instance = Instantiate(Resources.Load("border", typeof(GameObject))) as GameObject;
 		instance.transform.localScale  = new Vector2(numberOfRows * 10, numberOfRows);
 		instance.transform.position = new Vector2(0, -numberOfRows - borderAddYPosition);
 		instance.tag = "border";
 		instance.name = "borderBottom";
+		instance.transform.parent = tablero.transform;
 	}
 }

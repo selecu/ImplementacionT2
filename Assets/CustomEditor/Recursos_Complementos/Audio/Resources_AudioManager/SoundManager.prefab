@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaf146f928f50144ebd6caba9537fba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  State: 1
+  State: 0
   sonido_Ambiente: 1
   ambiente: {fileID: 5947822753721896874}
   primaria_correcto:

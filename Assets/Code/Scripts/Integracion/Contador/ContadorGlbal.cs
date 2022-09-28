@@ -1,3 +1,4 @@
+using AutoLetterbox;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -50,9 +51,7 @@ namespace ContadorChecks
         [MenuItem("Selecu Tools/Create ContadorGlobal &#c")]
         public static void CreateObjectOnScene()
         {
-            GameObject go = new GameObject();
-            go.name = "ContadorGlobal";
-            go.AddComponent<ContadorGlbal>().FindAllContadorChecks();
+            GameObject go = new GameObject("ContadorGlobal", typeof(ContadorGlbal));
         }
 #endif
     }

@@ -2385,7 +2385,7 @@ MonoBehaviour:
   - {fileID: 1556819856437683551}
   - {fileID: 1556819855910837461}
   exit: {fileID: 1556819857121293362}
-  check_integrador: {fileID: 0}
+  check_integrador: {fileID: 8423515304310596707}
   audioButton: {fileID: 1556819856562104369}
   ventanas:
   - {fileID: 5409907048837508493}
