@@ -43,6 +43,9 @@ TagManager:
   - parent6
   - parent2
   - casilla
+  - block
+  - TesterRelease
+  - StableRelease
   layers:
   - Default
   - TransparentFX
