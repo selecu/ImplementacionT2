@@ -46,14 +46,6 @@ namespace ContadorChecks
             Array.Clear(contadorGlobal, 0, contadorGlobal.Length);
             contadorGlobal = target;
         }
-
-#if UNITY_EDITOR
-        [MenuItem("Selecu Tools/Create ContadorGlobal &#c")]
-        public static void CreateObjectOnScene()
-        {
-            GameObject go = new GameObject("ContadorGlobal", typeof(ContadorGlbal));
-        }
-#endif
     }
 
 #if UNITY_EDITOR
