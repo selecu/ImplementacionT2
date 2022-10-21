@@ -21,8 +21,9 @@ namespace FloMania_vol1
         public bool mostrar_tx;
         public TextMeshProUGUI pos_tx;
         // Start is called before the first frame update
-        public void Start()
+        void Start()
         {
+           
             comprobando_vecinos();
             if (mostrar_tx)
             {

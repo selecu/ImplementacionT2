@@ -29,7 +29,9 @@ namespace MatchThreeEngine
 
 		[SerializeField] TMP_Text Scoretxt;
 		[SerializeField] GameObject CheckIntegrador;
+		
 		int Score;
+		public int goalScore;
 
 		private readonly List<Tile> _selection = new List<Tile>();
 
@@ -232,7 +234,7 @@ namespace MatchThreeEngine
 
 				Scoretxt.text = "Puntos " + Score.ToString();
 
-				if (Score == 150)
+				if (Score >= goalScore)
                 {
 					CheckIntegrador.SetActive(true);
 				}

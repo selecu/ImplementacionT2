@@ -72,6 +72,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -496,6 +497,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      rompecabezas2_5: 6718867488134581384
+      rompecabezas2_6: -1433884438123772237
+      rompecabezas2_14: -3759963137577608006
+      rompecabezas2_0: -8350812607907422161
+      rompecabezas2_11: 7722706259922389612
+      rompecabezas2_1: -35878565228346353
+      rompecabezas2_9: -7023565095700789955
+      rompecabezas2_7: -4202388679309231391
+      rompecabezas2_3: -8501966835679273134
+      rompecabezas2_12: 3591855537127667773
+      rompecabezas2_2: 6316302460039110629
+      rompecabezas2_13: 695556117898325307
+      rompecabezas2_10: 9122058433182575502
+      rompecabezas2_15: -1848910466707411876
+      rompecabezas2_8: 8720779493158239944
+      rompecabezas2_4: -1747353200181183777
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

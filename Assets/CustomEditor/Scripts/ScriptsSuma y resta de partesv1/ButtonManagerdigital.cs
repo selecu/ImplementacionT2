@@ -11,10 +11,13 @@ namespace v1
         Image img;
         public int id;
         public GameManagerdigital set;
+        public Color defaultColor;
+        public Color colorActive ;
 
         void Start()
         {
             img = gameObject.GetComponent<Image>();
+            
         }
 
         void Update()
@@ -23,13 +26,14 @@ namespace v1
             {
                 if(GameManagerdigital.done[id] == 1)
                 {
-                    img.color = new Color(0.2f,0.36f,0.36f,1f);
+                    img.color = colorActive;
                     
                 }
                 if(GameManagerdigital.done[id] == 0){
-                    img.color = new Color(255,255,255,255);
+                    img.color = defaultColor;
                 }
-            } catch (Exception e){
+            } catch (Exception e)
+            {
                 Debug.Log(e);
             }
 

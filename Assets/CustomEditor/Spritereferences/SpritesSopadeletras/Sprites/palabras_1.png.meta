@@ -63,6 +63,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -424,6 +425,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      llanura: 2970659925303077109
+      "ca\xF1ones": 3178467633601976104
+      desiertos: -2869771399831714341
+      valles: 34905732083285715
+      plantasXXX: 5120947752230109515
+      "monta\xF1as": 7972647511724511752
+      selvaXXX: -951050284283654736
+      mesetas: -7819246299251273319
+      lluvia: 1918025089971168788
+      humedad: -7648416632862888401
+      recursosXXXXX: 2554548257326568184
+      volcanes: -3445387685460334329
+      vegetacion: 6076531543749212439
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

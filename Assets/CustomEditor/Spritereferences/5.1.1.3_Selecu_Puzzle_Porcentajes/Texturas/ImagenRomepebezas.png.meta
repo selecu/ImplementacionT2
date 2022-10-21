@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -688,6 +689,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ImagenRomepebezas_3: 1448710882179331083
+      ImagenRomepebezas_14: -4302087496296720569
+      ImagenRomepebezas_4: 2429391412141239343
+      ImagenRomepebezas_8: -5795629443686217562
+      ImagenRomepebezas_20: 1964830955878225731
+      ImagenRomepebezas_6: -8559155025118027281
+      ImagenRomepebezas_11: -7119099580850465945
+      ImagenRomepebezas_5: -2649135364772562355
+      ImagenRomepebezas_7: 3061604969435030006
+      ImagenRomepebezas_2: 7434262217562063821
+      ImagenRomepebezas_12: -7150410705901077220
+      ImagenRomepebezas_22: 791646465450389171
+      ImagenRomepebezas_15: -582824674594866179
+      ImagenRomepebezas_19: 5759194263500661579
+      ImagenRomepebezas_17: -2070509492893541470
+      ImagenRomepebezas_0: -927074913660165532
+      ImagenRomepebezas_10: -3454431619914658866
+      ImagenRomepebezas_21: -8310064561584148329
+      ImagenRomepebezas_9: 396494148017962880
+      ImagenRomepebezas_13: 6221169267412815126
+      ImagenRomepebezas_23: -1898039330880484029
+      ImagenRomepebezas_16: 1973214516046788533
+      ImagenRomepebezas_1: 804711168263566702
+      ImagenRomepebezas_18: -4139950306840996286
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

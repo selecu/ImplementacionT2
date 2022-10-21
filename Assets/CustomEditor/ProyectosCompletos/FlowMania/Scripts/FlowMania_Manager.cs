@@ -42,7 +42,7 @@ namespace FloMania_vol1
         public GameObject Tablero;
         public GameObject prefab_casilla;
         public List<Item_Drag> num_item_drag;
-        private List<GameObject> items_InScena = new List<GameObject>();
+        [SerializeField]private List<GameObject> items_InScena = new List<GameObject>();
         public List<GameObject> casillas;
         public List<Vector3> puntos_usados;
         
@@ -98,6 +98,7 @@ namespace FloMania_vol1
                 GameObject casilla1 = Instantiate(prefab_casilla);
                 casillas.Add(casilla1);
                 casilla1.name = "casilla #" + (i+1);
+                casilla1.tag = "casilla";
                 
                 float pos_x= 0.5f + columna;
                 float pos_y = 0.5f + fila;
@@ -173,7 +174,6 @@ namespace FloMania_vol1
 
         public void check_actividad()
         {
-            
             int correctos = 0;
             foreach (var item in items_InScena)
             {
@@ -183,10 +183,7 @@ namespace FloMania_vol1
                 }
                 else
                 {
-                    Debug.Log("Respuestas <color=red>Malas¡¡</color>");
-
-                    
-
+                    Debug.Log("Respuestas <color=red>Malas¡¡</color>" + correctos);
                 }
             }
 
@@ -200,11 +197,6 @@ namespace FloMania_vol1
                 casillas.Clear();
                 items_InScena.Clear();
                 carga();
-                
-                
-                
-                                
-
             }
         }
 
@@ -213,11 +205,9 @@ namespace FloMania_vol1
            
             FloMania_vol1.ClearTablero item1 = FindObjectOfType<ClearTablero>();
             item1.eliminar();
-            iniciar_tablero();
-            crear_pools();
 
-
-            
+             iniciar_tablero();
+             crear_pools();
         }
     }
 }

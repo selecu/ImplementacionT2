@@ -36,6 +36,8 @@ namespace MyCustomTools
             if (!GameObject.Find("ContadorGlobal"))
             {
                 GameObject go = new GameObject("ContadorGlobal", typeof(ContadorGlbal));
+
+                go.GetComponent<ContadorGlbal>().FindAllContadorChecks();
             }
             else Debug.LogWarning("ContadorGlobal is already on scene.");
         }

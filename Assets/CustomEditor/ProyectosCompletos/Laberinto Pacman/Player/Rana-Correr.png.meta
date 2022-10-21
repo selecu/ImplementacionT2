@@ -54,6 +54,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -352,6 +353,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Rana-Correr_3: -5201365079825163347
+      Rana-Correr_0: 2171862098100675557
+      Rana-Correr_8: 7908794762300993540
+      Rana-Correr_7: 3403068950418877089
+      Rana-Correr_5: 3192323915173129228
+      Rana-Correr_9: -5885110135915487572
+      Rana-Correr_2: -572828243170635308
+      Rana-Correr_4: -2290028009752617006
+      Rana-Correr_6: -1750881943070347115
+      Rana-Correr_1: -4499933450867995585
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

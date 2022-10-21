@@ -121,7 +121,7 @@ namespace v1
                         //preguntas[i].id = respuestaID.ToString();
                         //respuestas[e].id = respuestaID.ToString();
                         preguntas[i].GetComponentInChildren<Text>().text = respuestaID.ToString();
-                        respuestas[e].GetComponentInChildren<Text>().text = (sumando1.ToString() + simbolo + sumando2.ToString());
+                        respuestas[e].GetComponentInChildren<Text>().text = (sumando1.ToString() + simbolo + "\n" + sumando2.ToString());
 
                     }
                 }

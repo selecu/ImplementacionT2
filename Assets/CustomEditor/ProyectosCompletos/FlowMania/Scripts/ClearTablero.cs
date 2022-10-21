@@ -10,6 +10,7 @@ namespace FloMania_vol1
     {
 
         public DD_item_Drop[] Allchildren;
+        
 
 
         private void Awake()
@@ -20,21 +21,13 @@ namespace FloMania_vol1
         // Start is called before the first frame update
         void Start()
         {
-
-
         }
 
         // Update is called once per frame
 
         void Update()
         {
-
-
-
-
-
-
-
+            
         }
 
         public void eliminar()
@@ -43,6 +36,10 @@ namespace FloMania_vol1
             foreach (var item in hijos)
             {
                 item.SetActive(false);
+                if(item.active == false)
+                {
+                    Destroy(item);
+                }
 
             }
 
@@ -55,11 +52,7 @@ namespace FloMania_vol1
         IEnumerator ASG()
         {
             yield return new WaitForSeconds(1);
-            Allchildren = FindObjectsOfType<DD_item_Drop>();
-            foreach (var item in Allchildren)
-            {
-                item.Start();
-            }
+           Allchildren = FindObjectsOfType<DD_item_Drop>();
         }
     }
     

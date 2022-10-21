@@ -18,7 +18,7 @@ namespace FloMania_vol1
         // Start is called before the first frame update
         void Start()
         {
-
+            LayerMask layer = LayerMask.GetMask("DD_Raycats");
         }
 
         // Update is called once per frame

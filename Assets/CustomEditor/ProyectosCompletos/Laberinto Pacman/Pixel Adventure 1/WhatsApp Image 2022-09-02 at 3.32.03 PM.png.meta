@@ -48,6 +48,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -316,6 +317,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      WhatsApp Image 2022-09-02 at 3.32.03 PM_6: -7001180731404320121
+      WhatsApp Image 2022-09-02 at 3.32.03 PM_3: -4291020576647657790
+      WhatsApp Image 2022-09-02 at 3.32.03 PM_0: 4656877456193354860
+      WhatsApp Image 2022-09-02 at 3.32.03 PM_4: 6819877582549323924
+      WhatsApp Image 2022-09-02 at 3.32.03 PM_5: -2536503242722998783
+      WhatsApp Image 2022-09-02 at 3.32.03 PM_2: -2991644847376691932
+      WhatsApp Image 2022-09-02 at 3.32.03 PM_7: 2135884874436753986
+      WhatsApp Image 2022-09-02 at 3.32.03 PM_1: 8923248906710067256
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

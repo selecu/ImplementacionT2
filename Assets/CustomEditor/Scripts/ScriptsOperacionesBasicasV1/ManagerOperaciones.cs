@@ -103,19 +103,22 @@ namespace v1
         {
             if (Suma == true)
             {
-                if (int.Parse(answer.text) == r)
-                {
-                    counter++;
-                    if (counter < Number_preguntas)
+                
+                
+                    if (int.Parse(answer.text) == r)
                     {
-                        GenerateS();
+                        counter++;
+                        if (counter < Number_preguntas)
+                        {
+                            GenerateS();
+                        }
+                        else
+                        {
+                            finalButton.SetActive(true);
+                            ExitGame();
+                        }
                     }
-                    else
-                    {
-                        finalButton.SetActive(true);
-                        ExitGame();
-                    }
-                }
+              
             }
 
             if (Resta == true)
@@ -154,6 +157,7 @@ namespace v1
 
             if (Divicion == true)
             {
+                
                 if (int.Parse(answer.text) == r)
                 {
                     counter++;
