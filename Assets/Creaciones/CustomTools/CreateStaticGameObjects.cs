@@ -33,13 +33,13 @@ namespace MyCustomTools
         [MenuItem("Selecu Tools/Create ContadorGlobal &#c")]
         public static void CreateObjectOnScene()
         {
-            if (!GameObject.Find("ContadorGlobal"))
+            if (!GameObject.Find("ContadorGlobal") && FindObjectOfType<Contadorcheck>())
             {
                 GameObject go = new GameObject("ContadorGlobal", typeof(ContadorGlbal));
 
                 go.GetComponent<ContadorGlbal>().FindAllContadorChecks();
             }
-            else Debug.LogWarning("ContadorGlobal is already on scene.");
+            else Debug.LogWarning("ContadorGlobal is already on scene or component 'Contadorcheck' doesn't exist.");
         }
 
         [MenuItem("Selecu Tools/CreateAllSceneRequest &#q")]
