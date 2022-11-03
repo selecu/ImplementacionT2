@@ -67,62 +67,45 @@ namespace v1
 
         public void Correct()
         {
-            try
+            if (Preguntas.Count > 0)
             {
-                if (Preguntas.Count > 0)
-                {
-                    Preguntas.RemoveAt(Pregunta_Actual);
-                }
-                GenerateQuestion();
-                ButtoncheckIntregrador.SetActive(true);
+                Preguntas.RemoveAt(Pregunta_Actual);
             }
-            catch (System.Exception e)
-            {
+            GenerateQuestion();
+            ButtoncheckIntregrador.SetActive(true);
+            
+            
 
-                Debug.LogWarning(e);
-            }
         }
 
         public void InCorret()
         {
-            try
-            {
-                Buttoncheck.SetActive(false);
-                GenerateQuestion();
-                v1.Managersound item = FindObjectOfType<Managersound>();
-                item.incorrecto.Play();
-                ventana[1].SetActive(true);
-                StartCoroutine(Waiting());
-            }
-            catch (System.Exception e)
-            {
-                Debug.LogWarning(e);
-            }
+            Buttoncheck.SetActive(false);
+            GenerateQuestion();
+            v1.Managersound item = FindObjectOfType<Managersound>();
+            item.incorrecto.Play();
+            ventana[1].SetActive(true);
+            StartCoroutine(Waiting());
 
         }
 
         void SetAnswers()
         {
-            try
+
+
+            for (int i = 0; i < Opcciones.Length; i++)
             {
-                for (int i = 0; i < Opcciones.Length; i++)
+                Opcciones[i].GetComponent<AnwerScriptImagen>().iscorrect = false;
+
+                Opcciones[i].transform.GetComponent<Image>().sprite = Preguntas[Pregunta_Actual].Respuestas[i].solucion;
+
+
+                if (Preguntas[Pregunta_Actual].Respuestas[i].correcta == true)
                 {
-                    Opcciones[i].GetComponent<AnwerScriptImagen>().iscorrect = false;
-
-                    Opcciones[i].transform.GetComponent<Image>().sprite = Preguntas[Pregunta_Actual].Respuestas[i].solucion;
-
-
-                    if (Preguntas[Pregunta_Actual].Respuestas[i].correcta == true)
-                    {
-                        Opcciones[i].GetComponent<AnwerScriptImagen>().iscorrect = true;
-                        Pregunta_Actual++;
-                    }
-
+                    Opcciones[i].GetComponent<AnwerScriptImagen>().iscorrect = true;
+                    Pregunta_Actual++;
                 }
-            }
-            catch (System.Exception e)
-            {
-                Debug.LogWarning(e);
+
             }
 
         }

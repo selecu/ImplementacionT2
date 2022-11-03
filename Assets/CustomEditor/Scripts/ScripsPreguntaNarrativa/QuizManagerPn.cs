@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using TMPro;
+using System.Text;
+using UnityEngine.iOS;
 
 [System.Serializable]
 public class QuestionPn
@@ -16,8 +18,8 @@ public class AnswersPn
 {
     [TextArea]
     public string solucion;
-    public  bool correcta ;
-    
+    public bool correcta;
+
 }
 
 namespace v1
@@ -34,15 +36,15 @@ namespace v1
         public GameObject Buttoncheck;
 
         public string Pregunta;
-       
 
-        
+
+
 
 
         private void Awake()
         {
             Shuffle(Preguntas[Pregunta_Actual].Respuestas);
-           
+
         }
 
 
@@ -58,8 +60,8 @@ namespace v1
 
         private void Update()
         {
-            Pregunta = Text_Pregunta.text = Preguntas[Pregunta_Actual].Pregunta;
-          
+            if (Preguntas.Count != 0)
+                Pregunta = Text_Pregunta.text = Preguntas[Pregunta_Actual].Pregunta;
         }
 
         private void Shuffle<T>(List<T> list)
@@ -75,18 +77,28 @@ namespace v1
 
         public void Correct()
         {
-            Preguntas.RemoveAt(Pregunta_Actual);
-            GenerateQuestion();
-
+            try
+            {
+                Preguntas.RemoveAt(Pregunta_Actual);
+                GenerateQuestion();
+            }
+            catch (System.Exception e)
+            {
+                Debug.LogWarning(e);
+            }
         }
 
         public void InCorret()
         {
-            Preguntas.RemoveAt(Pregunta_Actual);
-            GenerateQuestion();
-            
-            
-
+            try
+            {
+                Preguntas.RemoveAt(Pregunta_Actual);
+                GenerateQuestion();
+            }
+            catch (System.Exception e)
+            {
+                Debug.LogWarning(e);
+            }
         }
 
         void SetAnswers()
@@ -103,7 +115,7 @@ namespace v1
                 {
 
                     Opcciones[i].GetComponent<AnwerScriptPn>().iscorrect = true;
-                   
+
 
 
                 }
@@ -129,11 +141,10 @@ namespace v1
 
         }
 
-       
+
 
 
 
 
     }
 }
-

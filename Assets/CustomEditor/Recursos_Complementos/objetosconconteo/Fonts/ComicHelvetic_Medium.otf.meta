@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f9b9cc1338a3cc442a988a690e957007
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 50
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Comic Helvetic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 636367ddfabf5e542a7c2d8997887426, type: 3}
+  - {fileID: 12800000, guid: 9885125dd2db16b45a08a1330d4f724f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
