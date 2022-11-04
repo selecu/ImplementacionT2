@@ -892,7 +892,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5572916, y: 0.23518519}
   m_AnchorMax: {x: 0.6630208, y: 0.2962963}
-  m_AnchoredPosition: {x: 0, y: 0.0000038146973}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.0000076293945, y: 0.0000039339066}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &107031401
@@ -11644,7 +11644,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contadorGlobal:
+  - {fileID: 210533737}
+  - {fileID: 479142673}
   - {fileID: 751482392}
+  - {fileID: 789568208}
 --- !u!4 &1425570787
 Transform:
   m_ObjectHideFlags: 0
