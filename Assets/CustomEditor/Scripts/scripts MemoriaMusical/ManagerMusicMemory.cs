@@ -102,6 +102,9 @@ namespace v1
             blockButtons(false);
         }
 
+        public void CoroutineStartLevel() =>
+            StartCoroutine(StartNivel(CurrentLevel, Niveles[0].speedDificult));
+
 
     }
 }
